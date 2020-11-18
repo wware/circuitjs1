@@ -40,11 +40,7 @@ class EditOptions implements Editable {
 	            ei.choice.add("Dansk");
 	            ei.choice.add("Deutsch");
 	            ei.choice.add("English");
-	            ei.choice.add("Español");
-	            ei.choice.add("Français");
-	            ei.choice.add("Italiano");
-	            ei.choice.add("Polski");
-	            ei.choice.add("Português");
+                    // TODO - Need to figure out how to avoid removing these lines.
 	            ei.choice.add("\u0420\u0443\u0441\u0441\u043a\u0438\u0439"); // Russian 
 	            return ei;
 		}

@@ -1,0 +1,30 @@
+ 2043  find . -name EditOptions.java
+ 2044  git commit -am plod
+ 2045  git push origin docker
+ 2046  history
+ 2047  docker image rm circuitjs1 && docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2048  git commit -am x
+ 2049  git push origin docker
+ 2050  docker image rm circuitjs1 && docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2051  git diff
+ 2052  git commit -am progress
+ 2053  h
+ 2054  history | tail -30
+ 2055  docker image rm circuitjs1 && docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2056  git diff
+ 2057  git commit -am x
+ 2058  docker image rm circuitjs1; docker system prune -f; docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2059  git diff
+ 2060  git commit -am x
+ 2061  git push origin docker
+ 2062  docker image rm circuitjs1; docker system prune -f; docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2063  git commit -am x
+ 2064  git push origin docker
+ 2065  docker image rm circuitjs1; docker system prune -f; docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2066  git log -p
+ 2067  git commit -am x; git push origin docker
+ 2068  docker image rm circuitjs1; docker system prune -f; docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2069  git commit -am x; git push origin docker
+ 2070  docker image rm circuitjs1; docker system prune -f; docker build -t circuitjs1 . && docker run --rm -it circuitjs1 /bin/bash
+ 2071  history | tail -30
+ 2072  history | tail -30 > some-commands.txt
